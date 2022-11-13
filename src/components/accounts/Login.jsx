@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "../../assets/LoginPage1.jpg"
 
 const Login = () =>{
    
@@ -65,7 +66,8 @@ const Login = () =>{
          
       </div>
     
-      <div className="flex col w-2/5 h-full bg-[url('E:\Blog-application\client\public\LoginPage1.jpg')]  bg-center pl-14  bg-contain bg-no-repeat bg-[#edf0f5] bg-top">
+      <div className="flex col w-2/5 h-full bg-center pl-14  bg-contain bg-no-repeat bg-[#edf0f5] bg-top" >
+      <img src={Image} alt="nnj"/>
         
       </div>
       </div>
@@ -129,7 +131,7 @@ const Login = () =>{
          
       </div>
     
-      <div className="flex col w-2/5 h-full bg-[url('E:\Blog-application\client\public\LoginPage1.jpg')]  bg-center pl-14  bg-contain bg-no-repeat bg-[#edf0f5] bg-top">
+      <div className="flex col w-2/5 h-full  bg-center pl-14  bg-contain bg-no-repeat bg-[#edf0f5] bg-top" style={{backgroundImage:`${Image}`}}>
         
       </div>
       </div>
